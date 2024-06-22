@@ -1,0 +1,39 @@
+/* src/main.css or any other CSS file */
+
+.suggestions-list {
+  color: black;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  background: white;
+  position: absolute;
+  z-index: 1000;
+  width: calc(100% - 6px); /* Adjust according to input width */
+}
+
+.suggestions-list li {
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.qr-code-container.blur {
+  filter: blur(5px);
+  position: relative;
+}
+
+.qr-placeholder-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
