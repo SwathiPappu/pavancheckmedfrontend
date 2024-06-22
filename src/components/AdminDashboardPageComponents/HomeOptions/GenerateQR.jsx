@@ -123,7 +123,7 @@ const GenerateQR = () => {
       [name]: value,
     }));
   };
-  const qrCodeValue = `http://localhost:5173/#/home-page/${encodeURIComponent(city)}/${encodeURIComponent(companyName)}`;
+  const qrCodeValue = `https://wonderful-grass-091acd200.5.azurestaticapps.net/#/home-page/${encodeURIComponent(city)}/${encodeURIComponent(companyName)}`;
 
   return (
     <main className="main-container">
